@@ -1,0 +1,3 @@
+[submodule "CPlayer"]
+	path = CPlayer
+	url = https://github.com/JokerQyou/CPlayer.git
