@@ -4,3 +4,6 @@
 [submodule "YPlayer"]
 	path = YPlayer
 	url = https://github.com/JokerQyou/YPlayer.git
+[submodule "instantclick"]
+	path = instantclick
+	url = https://github.com/dieulot/instantclick.git

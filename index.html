@@ -2,9 +2,132 @@
 <html>
 <head>
     <title>Lab</title>
+    <style type="text/css">
+        @import url(http://fonts.useso.com/css?family=Lato:300,400,700|Montserrat);
+        html, body, .content {
+            height: 100%;
+        }
+        *, *:after, *::before {
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        body {
+            background: #444;
+            color: #48a770;
+            font-weight: 300;
+            font-family: 'Lato', Calibri, Arial, sans-serif;
+            margin: 0;
+        }
+        .content {
+            overflow-y: scroll;
+            background: #f3efe0;
+            position: relative;
+        }
+        header {
+            margin: 0 auto 1em;
+            padding: 3em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 300;
+            font-size: 2.625em;
+            line-height: 1.3;
+        }
+        header span {
+            display: block;
+            padding: 0 0 0.6em 0.1em;
+            font-size: 60%;
+            color: #aca89a;
+        }
+        .info {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 1em;
+            clear: both;
+            padding: 3em 0;
+            opacity: 0.7;
+            color: #aca89a;
+        }
+        .info a {
+            font-weight: 700;
+            font-size: 0.9em;
+        }
+        a {
+            text-decoration: none;
+            color: #48a770;
+        }
+        a, button {
+            outline: none;
+        }
+        section {
+            position: relative;
+            text-align: center;
+            padding: 1em 1em 3em;
+        }
+        section h2 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #148544;
+            font-weight: 700;
+            padding: 1em;
+            font-size: 0.8em;
+            -webkit-backface-visibility: hidden;
+        }
+        .wrapper {
+            text-align: center;
+            vertical-align: top;
+        }
+        .wrapper section {
+            display: inline-block;
+            width: 300px;
+        }
+        .wrapper a {
+            position: relative;
+            display: inline-block;
+            padding: 0 60px;
+            outline: none;
+            border: none;
+            background: #1d9650;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1em;
+            line-height: 4;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-<a href="CPlayer/index.html">CPlayer</a>
-<a href="YPlayer/new.html">YPlayer</a>
+<div class="content">
+    <header>
+        <h1>
+            Lab
+            <span>Some of my works</span>
+        </h1>
+    </header>
+    <div class="wrapper">
+        <section>
+            <h2>A video player in HTML</h2>
+            <a href="CPlayer/index.html">
+                <span class="btn-content">CPlayer</span>
+            </a>
+        </section>
+        <section>
+            <h2>A music player in HTML</h2>
+            <a href="YPlayer/new.html">
+                <span class="btn-content">YPlayer</span>
+            </a>
+        </section>
+    </div>
+    <div class="main clearfix">
+        <div class="info">
+            <p>No effects are guaranteed in Internet Explorer.</p>
+            <p><a href="//mynook.info">Return home</a></p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="instantclick/instantclick.js" data-no-instant></script>
+<script type="text/javascript" data-no-instant>InstantClick.init();</script>
 </body>
 </html>
