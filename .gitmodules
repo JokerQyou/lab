@@ -1,3 +1,6 @@
 [submodule "CPlayer"]
 	path = CPlayer
 	url = https://github.com/JokerQyou/CPlayer.git
+[submodule "YPlayer"]
+	path = YPlayer
+	url = https://github.com/JokerQyou/YPlayer.git
