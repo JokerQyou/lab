@@ -3,7 +3,7 @@
 <head>
     <title>Lab</title>
     <style type="text/css">
-        @import url(http://fonts.useso.com/css?family=Lato:300,400,700|Montserrat);
+        @import url(https://fonts.lug.ustc.edu.cn/css?family=Lato:300,400,700|Montserrat);
         html, body, .content {
             height: 100%;
         }
@@ -150,7 +150,13 @@
     </div>
 </div>
 <script>
-    if(window.top.location.host !== 'lab.mynook.info'){
+    var in_frame;
+    try{
+        in_frame = window.top !== window.self;
+    }catch(e){
+        in_frame = true;
+    }
+    if(in_frame){
         document.body.write('This site is not allowed to embed this page, please follow this link: <a href="//lab.mynook.info">lab.mynook.info</a>.');
     }
 </script>
