@@ -157,7 +157,9 @@
         in_frame = true;
     }
     if(in_frame && !/^(http|https):\/\/lab.mynook.info\/$/gi.test(document.referrer)){
-        document.write('This site is not allowed to embed this page, please follow this link: <a href="//lab.mynook.info">lab.mynook.info</a>.');
+        setTimeout(function(){
+            document.write('This site is not allowed to embed this page, please follow this link: <a href="//lab.mynook.info">lab.mynook.info</a>.');
+        }, 1000);
     }
 </script>
 </body>
