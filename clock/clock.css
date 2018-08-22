@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#cclock{
+    background-color: #eeeeee;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .6) inset;
+}
